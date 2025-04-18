@@ -122,7 +122,7 @@ const sliderAnimationEffect = () =>{
     spaceBetween: 30,
     loop: true,
     autoplay: {
-      delay: 1500,
+      delay: 2700,
       disableOnInteraction: false,
     }
   });
