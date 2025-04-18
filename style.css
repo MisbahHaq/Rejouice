@@ -58,7 +58,7 @@ position: relative;
 #black-cursor{
     width: 7.5vw;
     height: 7.5vw;
-    background-color: black;
+    background-color: white;
     position: fixed;
     border-radius: 50%;
     display: flex;
@@ -70,7 +70,7 @@ position: relative;
     font-size: 1.15vw;
     font-weight: 500;
     font-family: nb;
-    color: white;
+    color: black;
 }
 #video-container-first{
 height: 100vh;
@@ -121,10 +121,12 @@ position: absolute;
 }
 .second-top-text{
     font-family: nb;
+    color: #FAF8F3;
     font-size: 1.1vw;
 }
 .second-top-text h2{
     font-weight: 400;
+    color: #FAF8F3; 
 }
 .second-flex-text{
     margin-top: .5vw;
@@ -147,8 +149,21 @@ position: absolute;
     font-size: 2.1vw;
     margin-top: 1.2vw;
 }
+
+.text_elem2 {
+    font-family: nb;
+    font-size: 2.1vw;
+    margin-top: 1.2vw;
+    color: #FAF8F3;
+}
+
 .text_elem h1{
     font-weight: 400;
+}
+
+.text_elem2 h1 {
+    font-weight: 400;
+    color: #FAF8F3;
 }
 
 #container-third{
@@ -245,7 +260,7 @@ position: absolute;
 #container-four{
     width: 100%;
     min-height: 100vh;
-    background-color: #FAF8F3;
+    background-color: black;
     padding: 5vw 2.5vw;
     position: relative;
 }
@@ -274,6 +289,7 @@ position: absolute;
     padding: 5vw 2.5vw;
     position: relative;
 }
+
 .four-footer-text{
     margin-top: 12vw;
 }
